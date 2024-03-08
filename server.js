@@ -30,5 +30,5 @@ app.get("/", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on ${PORT}`.bgYellow.red);
 });
-module.exports = app;
+
 
